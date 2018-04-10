@@ -1,0 +1,150 @@
+main {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color:rgb(88, 86, 88);
+}
+
+p{ 
+    /* color:rgb(88, 86, 88); */
+}
+
+h1{
+    /* color:rgb(88, 86, 88); */
+    animation: fademein 4s
+}
+
+h2{
+    /* color:rgb(88, 86, 88); */
+    animation: fademein 4s;
+}
+
+header { 
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer a{
+    opacity: 0.6;
+    transition: opacity 1s;  
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color:rgb(88, 86, 88);
+  }
+  
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+
+footer a:hover{
+    opacity: 1; 
+}
+footer :hover{
+    opacity: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* background-color: #2196F3; */ */ */
+    padding: 10px;
+  }
+.grid-item {
+    /* /* background-color: rgba(255, 255, 255, 0.8);
+     border: 1px solid rgba(0, 0, 0, 0.8);  */
+    padding: 20px;
+    font-size: 30px; 
+    text-align: center;
+  }
+
+main{
+    text-align: center;
+    /* background: url("3diego-ph-222506-unsplash 2.jpg") ; */
+    padding: 300px;
+    position: relative;
+    background-color: black;   
+}
+
+.frontimage{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    opacity: 0.15;
+    animation: fadeinless 3s;
+}
+
+main p{
+    margin: 0;
+    padding:0px;
+    animation: fademein 3s;
+    font-size: 19px;
+}
+
+ .fade-in {
+     animation: fademein 3s;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-image:url("Holi-Festival-top.jpg");
+    clear: left;
+    text-align: center;
+}
+
+@keyframes fadeout { 
+}
+
+@keyframes fademein { 
+    from{ opacity: 0;
+         filter:blur(10px) }
+    to{opacity:1;
+        filter:blur(0px) }
+}
+
+@keyframes fadeinless {
+    from{ opacity: 0;
+        filter:blur(10px) }
+   to{opacity:0.1;
+       filter:blur(0px) }
+}
+
+  /* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-image:url("Holi-Festival-top.jpeg");
+    background-color: red; 
+    color: white;
+    text-align: center;
+} */
+
+
+
